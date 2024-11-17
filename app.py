@@ -53,5 +53,3 @@ if uploaded_video is not None:
 
     # Cleanup
     os.unlink(temp_video_path)
-
-st.write("Ensure 'best.pt' is in the same directory or provide the correct path in ⁠model_path⁠.")
